@@ -1,0 +1,66 @@
+@font-face { font-family: Blades; src: url('Blades.ttf'); } 
+@font-face { font-family: GOD; src: url('GODOFWAR.ttf'); }
+@font-face { font-family: Grin; src: url('GrindAndDeath_Demo.ttf'); } 
+
+
+body{
+    text-align: center;
+    background-color: black;
+    margin-top: 60px;
+    
+
+
+}
+
+#jeu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 300px;
+    margin: auto;
+}
+
+.case{
+    border: 3px solid white;
+    height: 100px;
+    line-height: 100px;
+    font-size: 60px;
+    color: white;
+    font-family: GOD;
+}
+
+h1{
+    color: white;
+    font-family: Blades;
+}
+
+h2{
+    color: white;
+    font-family: Grin;
+}
+
+.again{
+background-color: white;
+width: 268px;
+height: 54px;
+border-radius: 169px;
+font-family: Blades;
+font-size: 27px;
+}
+
+
+.triangle1{
+    width: 88px;
+    display: flex;
+    margin-left: 17rem;
+    margin-bottom: -131px;
+}
+
+
+
+.triangle2{
+    width: 88px;
+    margin-left: 70rem;
+    margin-bottom: -49px;
+    display: flex;
+}
+
